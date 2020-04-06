@@ -88,11 +88,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img
-              class="img-fluid about-image"
-              src="./img/about1.jpg"
-              alt="Me"
-            />
+            <img class="img-fluid about-img" src="./img/profile.jpg" alt="Me" />
           </div>
           <div class="col-md-7">
             <h2 class="text-center">My name is Christian Dimitrov</h2>
@@ -290,12 +286,43 @@
           <div class="filter">
             <ul id="filters">
               <li><a href="#" data-filter="*" class="current">All</a></li>
+              <li>
+                <a href="#" data-filter=".css" class="current"
+                  >Pure HTML & CSS
+                </a>
+              </li>
               <li><a href="#" data-filter=".reactjs">React JS</a></li>
+              <li><a href="#" data-filter=".php">PHP & MySQL</a></li>
               <li><a href="#" data-filter=".javascript">Javascript</a></li>
             </ul>
           </div>
           <div class="items-container">
             <ul class="row items">
+              <li onclick="" class="css col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img
+                    src="./img/portfolio/thumbnails/biketours.jpg"
+                    alt="bike tours pure css and html project"
+                  />
+                  <div class="icons">
+                    <a
+                      href="./img/portfolio/biketours.png"
+                      title="View image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="sample image"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <a
+                      class="project-link"
+                      href="https://biketours.netlify.com/"
+                      target="_blank"
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </li>
               <li
                 onclick=""
                 class="reactjs col-xs-6 col-sm-4 col-md-3 col-lg-3"
@@ -436,22 +463,25 @@
                   <div class="image-overlay"></div>
                 </div>
               </li>
-              <li
-                onclick=""
-                class="javascript col-xs-6 col-sm-4 col-md-3 col-lg-3"
-              >
+              <li onclick="" class="php col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
-                  <img src="./img/portfolio/thumbnails/300.png" alt="" />
+                  <img
+                    src="./img/portfolio/thumbnails/art-house.jpg"
+                    alt="a complete e-commerce project"
+                  />
                   <div class="icons">
                     <a
-                      href="./img/portfolio/thumbnails/300.png"
+                      href="./img/portfolio/art-house.jpg"
                       title="View image"
                       class="open-button"
                       data-fancybox
                       data-caption="sample image"
                       ><i class="fa fa-search"></i
                     ></a>
-                    <a class="project-link" href="" target="_blank"
+                    <a
+                      class="project-link"
+                      href="https://art-house.bg"
+                      target="_blank"
                       ><i class="fa fa-link"></i
                     ></a>
                   </div>

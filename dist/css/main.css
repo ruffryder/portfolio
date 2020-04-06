@@ -212,6 +212,11 @@ section {
 
 /* About Section Styles */
 
+.about-img {
+  border-radius: 50px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
 /*END OF About Section Styles */
 
 /* Skills Section Styles */
