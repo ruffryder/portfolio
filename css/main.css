@@ -212,9 +212,17 @@ section {
 
 /* About Section Styles */
 
-.about-img {
+.about-section__img {
   border-radius: 50px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.about-section__heading {
+  margin-bottom: 2rem;
+}
+
+.about-section__paragraph {
+  font-size: 1.2rem;
 }
 
 /*END OF About Section Styles */
