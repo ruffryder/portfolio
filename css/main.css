@@ -29,6 +29,7 @@ ul {
   list-style: none;
 }
 
+h1,
 h2,
 h3,
 h4 {
@@ -142,10 +143,11 @@ section {
 }
 
 .title-container .title h1 {
-  font-size: 80px;
+  font-size: 40px;
 }
 .title-container .title h2 {
-  font-size: 32px;
+  font-size: 24px;
+  letter-spacing: 2px;
 }
 /* END OF Superslides Styles */
 
@@ -460,11 +462,30 @@ footer p {
 
 /* Media Queries Styles */
 @media screen and (min-width: 768px) {
+  .title-container .title h1 {
+    font-size: 60px;
+  }
+
+  .title-container .title h2 {
+    font-size: 32px;
+    letter-spacing: 4px;
+  }
+
   section {
     padding: 100px 0;
   }
   #slides {
     height: 770px !important;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .title-container .title h1 {
+    font-size: 80px;
+  }
+  .title-container .title h2 {
+    font-size: 40px;
+    letter-spacing: 6px;
   }
 }
 /* END OF Media Queries */
